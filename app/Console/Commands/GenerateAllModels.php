@@ -23,7 +23,11 @@ class GenerateAllModels extends Command
      * @var string
      */
     protected $description = 'Generate all models';
-
+    
+    public function __construct()
+    {
+        parent::__construct();
+    }
     /**
      * Execute the console command.
      *
